@@ -675,9 +675,9 @@ By building this project, I learned:
 
 ## Author
 
-**Your Name**
+**Adarsh Srivastav**
 - Diploma Course — Blockchain Technology
-- GitHub: [your-username](https://github.com/your-username)
+- GitHub: (https://github.com/adarshsrivastav23905)
 
 ---
 
