@@ -2,7 +2,7 @@
 
 > **10 predicted interview questions with strong, implementation-based answers.**
 
----
+---   
 
 ## Question 1: "Explain your project."
 
