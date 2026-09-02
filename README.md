@@ -13,7 +13,7 @@
 Funds are locked inside a smart contract and released automatically when the client approves the freelancer's work — eliminating the need for a trusted middleman.
 
 [Smart Contract](#smart-contract-architecture) • [Installation](#installation) • [Testing](#running-tests) • [Frontend](#frontend-dapp) • [Remix Simulation](#remix-ide-simulation)
-
+   
 </div>
 
 ---
