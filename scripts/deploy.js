@@ -2,7 +2,7 @@
  * @file deploy.js
  * @notice Deployment script for the FreelanceEscrow smart contract.
  *
- * Usage:
+ * Usage:   
  *   Local:   npx hardhat run scripts/deploy.js --network localhost
  *   Testnet: npx hardhat run scripts/deploy.js --network sepolia
  *   Default: npx hardhat run scripts/deploy.js   (uses in-memory Hardhat network)
