@@ -8,7 +8,7 @@
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
 
-**A decentralized escrow payment system for freelancers built on Ethereum smart contracts.**
+**A decentralized escrow payment system for freelancers built on Ethereum smart contracts.**   
 
 Funds are locked inside a smart contract and released automatically when the client approves the freelancer's work — eliminating the need for a trusted middleman.
 
