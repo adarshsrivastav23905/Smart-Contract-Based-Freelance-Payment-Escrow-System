@@ -16,7 +16,7 @@ Funds are locked inside a smart contract and released automatically when the cli
         
 </div>
 
----
+---   
     
 ## 📋 Table of Contents
 
