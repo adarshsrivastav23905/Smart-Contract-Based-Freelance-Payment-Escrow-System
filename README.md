@@ -9,7 +9,7 @@
 ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
 
 **A decentralized escrow payment system for freelancers built on Ethereum smart contracts.**   
-
+   
 Funds are locked inside a smart contract and released automatically when the client approves the freelancer's work — eliminating the need for a trusted middleman.
 
 [Smart Contract](#smart-contract-architecture) • [Installation](#installation) • [Testing](#running-tests) • [Frontend](#frontend-dapp) • [Remix Simulation](#remix-ide-simulation)
