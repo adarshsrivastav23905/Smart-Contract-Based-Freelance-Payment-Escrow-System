@@ -9,7 +9,7 @@
 ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
 
 **A blockchain-powered escrow system for secure freelance payments on Ethereum.**
-
+   
 This project locks funds in a smart contract until the client approves the work, reducing fraud, eliminating unnecessary intermediaries, and enabling transparent dispute resolution.
 
 [Smart Contract](#smart-contract-architecture) • [Installation](#installation) • [Testing](#running-tests) • [Frontend](#frontend-dapp) • [Remix Simulation](#remix-ide-simulation)
