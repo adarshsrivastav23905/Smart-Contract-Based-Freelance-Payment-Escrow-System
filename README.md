@@ -1,5 +1,5 @@
 # Smart Contract-Based Freelance Payment Escrow System
-    
+
 <div align="center">
 
 ![Solidity](https://img.shields.io/badge/Solidity-0.8.20-363636?style=for-the-badge&logo=solidity)
@@ -7,64 +7,36 @@
 ![Hardhat](https://img.shields.io/badge/Hardhat-FFF100?style=for-the-badge&logo=hardhat&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Ethers.js](https://img.shields.io/badge/Ethers.js-2535A0?style=for-the-badge&logo=ethers&logoColor=white)
-     
-**A decentralized escrow payment system for freelancers built on Ethereum smart contracts.**   
-   
-Funds are locked inside a smart contract and released automatically when the client approves the freelancer's work — eliminating the need for a trusted middleman.
+
+**A blockchain-powered escrow system for secure freelance payments on Ethereum.**
+
+This project locks funds in a smart contract until the client approves the work, reducing fraud, eliminating unnecessary intermediaries, and enabling transparent dispute resolution.
 
 [Smart Contract](#smart-contract-architecture) • [Installation](#installation) • [Testing](#running-tests) • [Frontend](#frontend-dapp) • [Remix Simulation](#remix-ide-simulation)
-        
+
 </div>
-
----   
-    
-## 📋 Table of Contents
-
-- [Overview](#overview)
-- [Problem Statement](#problem-statement)
-- [Objectives](#objectives)
-- [Industry Relevance](#industry-relevance)
-- [Blockchain Concepts Used](#blockchain-concepts-used)
-- [Technology Stack](#technology-stack)
-- [Smart Contract Architecture](#smart-contract-architecture)
-- [Actors](#actors)
-- [Escrow Workflow](#escrow-workflow)
-- [Contract States](#contract-states)
-- [Smart Contract Functions](#smart-contract-functions)
-- [Events](#events)
-- [Security Features](#security-features)
-- [Folder Structure](#folder-structure)
-- [Installation](#installation)
-- [Remix IDE Simulation](#remix-ide-simulation)
-- [Hardhat Setup](#hardhat-setup)
-- [Running Tests](#running-tests)
-- [Deployment](#deployment)
-- [Frontend DApp](#frontend-dapp)
-- [Sample Transactions](#sample-transactions)
-- [Screenshots](#screenshots)
-- [Results](#results)
-- [Limitations](#limitations)
-- [Future Improvements](#future-improvements)
-- [Learning Outcomes](#learning-outcomes)
-- [Author](#author)
 
 ---
 
 ## Overview
 
-The **Freelance Payment Escrow System** is a blockchain-based decentralized application (DApp) that uses Ethereum smart contracts to manage payments between clients and freelancers. Instead of relying on a centralized platform (like Upwork or Fiverr) to hold and release funds, the smart contract acts as an automated, trustless escrow.
+The **Freelance Payment Escrow System** is a decentralized application that allows a client to deposit ETH into a smart contract for a freelancer's work. The funds remain locked until the client approves completion, or a dispute is resolved by an arbitrator.
 
-### Simple Explanation
+### Why this matters
 
-Think of this as a "digital locker" managed by code instead of a person:
-1. The **client** puts money into the locker (smart contract).
-2. The **freelancer** does the work and shows it to the client.
-3. If the client is happy, they press a button and the money is released to the freelancer.
-4. If something goes wrong, either party can raise a dispute, and an arbitrator decides.
+Traditional freelance platforms often rely on centralized trust and manual dispute handling. This project removes that dependency by automating the escrow lifecycle through smart contract logic.
 
-### Technical Explanation
+### Core flow
 
-The system implements a state-machine-based Solidity smart contract deployed on the Ethereum blockchain. It enforces role-based access control (`onlyClient`, `onlyFreelancer`, `onlyArbitrator`), strict state transitions (8 states managed via an `enum`), and secure ETH transfers using the checks-effects-interactions pattern with reentrancy protection. All actions emit events for off-chain indexing and transparency.
+1. The client creates an escrow and sets the freelancer and payment amount.
+2. The client funds the escrow with the exact ETH amount.
+3. The freelancer starts work and submits the deliverable.
+4. The client approves the work and the payment is released automatically.
+5. If work is disputed, an arbitrator resolves the case fairly.
+
+### Technical implementation
+
+The system uses a Solidity state machine with role-based protections such as `onlyClient`, `onlyFreelancer`, and `onlyArbitrator`. It enforces valid state transitions, protects against reentrancy, validates inputs strictly, and emits events for transparency and frontend integration.
 
 ---
 
@@ -384,8 +356,8 @@ Smart-Contract-Freelance-Escrow/
 ### Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/Smart-Contract-Freelance-Escrow.git
-cd Smart-Contract-Freelance-Escrow
+git clone https://github.com/adarshsrivastav23905/Smart-Contract-Based-Freelance-Payment-Escrow-System.git
+cd Smart-Contract-Based-Freelance-Payment-Escrow-System
 ```
 
 ### Step 2: Install Dependencies
