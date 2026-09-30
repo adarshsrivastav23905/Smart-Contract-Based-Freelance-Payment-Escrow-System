@@ -98,7 +98,7 @@ This escrow pattern is used across many industries:
 ## Blockchain Concepts Used
 
 | Concept | Role in This Project |
-|---|---|
+|---|---|   
 | **Blockchain** | Immutable ledger storing all escrow transactions |
 | **Ethereum** | Platform for deploying and running the smart contract |
 | **Smart Contract** | Self-executing escrow logic — no middleman |
