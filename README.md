@@ -23,7 +23,7 @@ This project locks funds in a smart contract until the client approves the work,
 The **Freelance Payment Escrow System** is a decentralized application that allows a client to deposit ETH into a smart contract for a freelancer's work. The funds remain locked until the client approves completion, or a dispute is resolved by an arbitrator.
 
 ### Why this matters
-
+   
 Traditional freelance platforms often rely on centralized trust and manual dispute handling. This project removes that dependency by automating the escrow lifecycle through smart contract logic.
 
 ### Core flow
